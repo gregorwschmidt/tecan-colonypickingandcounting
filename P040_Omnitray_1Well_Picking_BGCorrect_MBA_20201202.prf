@@ -1,0 +1,56 @@
+[IMAGE_DOC]
+doc_radius = 8
+doc_step = 1
+doc_picked_color = (128, 128, 128)
+doc_type = letter
+clpdoc = C:\Pickolo\Doc
+doc_offset = (10, 10)
+doc_size = 0.7
+doc_current_color = (0, 200, 0)
+doc_screen_sq_size = 10
+doc_thick = 1
+doc_dim = (8, 12)
+doc_color = (255, 0, 0)
+
+[ROBOT_WORKLIST]
+pickdetectspeed = 0
+pickaspspeed = 1400
+pickfirsttip = 1
+intwlname = pickolo.gwl
+pickprog = 
+pickmixvol = 0
+pickretract = 30
+pickaspvol = 3
+pickradius = 3
+pickmixcyc = 3
+pickmode = Detect
+wlmode = run1
+
+[AGAR_PLATE]
+mwell_list = [['R', [103, 141, 1475, 1006]]]
+zmax = 1188
+ztrv = 1030
+show_filter = 1
+mwell_active = 1
+cfz_zoffset = 0.0
+
+[IMAGE_SELECTION]
+bg_threshold = 5
+circularity = 0.7
+colony_pos = c
+gchannel = w
+bg_win = 50
+max_number = 5000
+sort_crit = Min. Distance
+color_select = 0
+hsvdata = [0, 255, 0, 0, 255, 0, 0, 255, 0]
+bg_color = (127, 127, 127)
+mindist = 20
+sort_reverse = 1
+object_size = (50, 5000)
+ihsvdata = [0, 255, 0, 0, 255, 0, 0, 255, 0]
+bg_inv = 0
+auto_bg_detection = 1
+color_imganal = 0
+teach_margin = 0.1
+
